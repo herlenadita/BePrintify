@@ -1,0 +1,19 @@
+{
+  "canisters": {
+    "login-app-backend": {
+      "declarations": {
+        "node_compatibility": true
+      },
+      "main": "src/login-app-backend/main.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
